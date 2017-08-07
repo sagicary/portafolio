@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.center {
+  text-align: center; }
+
+.uno {
+  background: #fff url(../assets/img/computer.jpg) no-repeat top right;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh; }
+  .uno h1 {
+    color: white;
+    font-weight: bold; }
+
+.uno:before {
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "";
+  display: block;
+  position: absolute;
+  /* Todas las posiciones a cero */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.dos {
+  background-color: #D09683; }
+  .dos .yo {
+    margin-top: 50px; }
+  .dos .descripcion {
+    padding: 30px; }
+    .dos .descripcion h3 {
+      color: #363237;
+      font-family: 'Lobster';
+      font-size: 40px; }
+    .dos .descripcion p {
+      color: #363237;
+      font-family: 'Acme', sans-serif;
+      font-size: 20px;
+      text-align: justify; }
+    .dos .descripcion .imgcentro {
+      text-align: center; }
+
+/*Estilos para Nav*/
+.btn-group-sm .btn-fab {
+  position: fixed !important;
+  right: 20px;
+  padding: 20px;
+  z-index: 10; }
+
+.btn-group .btn-fab {
+  position: fixed !important;
+  right: 20px;
+  padding: 20px;
+  z-index: 10; }
+
+#main {
+  position: fixed; }
+
+#home {
+  top: 60px; }
+
+#about {
+  top: 110px; }
+
+#conocimientos {
+  top: 160px; }
+
+#portafolio {
+  top: 210px; }
+
+#contacto {
+  top: 260px; }
+
+.fa {
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: lightblue;
+  width: 50px;
+  height: 50px;
+  padding: 15px; }
+
+.tres .imagenes img {
+  width: 100px;
+  height: 100px;
+  display: inline-block; }
+
+.espacio {
+  padding: 30px; }
+
+/*# sourceMappingURL=main.css.map */
