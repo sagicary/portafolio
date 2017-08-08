@@ -88,11 +88,11 @@ body {
   font-family: 'Lobster';
   font-size: 40px;
   padding-bottom: 10px; }
-.tres .devicon-html5-plain-wordmark, .tres .devicon-css3-plain-wordmark, .tres .devicon-javascript-plain, .tres .devicon-jquery-plain-wordmark, .tres .devicon-php-plain, .tres .devicon-mysql-plain-wordmark {
+.tres .devicon-html5-plain-wordmark {
   font-size: 100px;
   color: #2D4262;
   padding: 10px; }
-.tres .devicon-sass-original, .tres .devicon-bootstrap-plain-wordmark, .tres .devicon-photoshop-line, .tres .devicon-trello-plain-wordmark, .tres .devicon-slack-plain-wordmark, .tres .devicon-github-plain-wordmark, .tres .devicon-gulp-plain, .tres .devicon-nodejs-plain-wordmark, .tres .devicon-tomcat-line-wordmark {
+.tres .devicon-sass-original, .tres .devicon-bootstrap-plain-wordmark, .tres .devicon-photoshop-line, .tres .devicon-trello-plain-wordmark, .tres .devicon-slack-plain-wordmark, .tres .devicon-github-plain-wordmark, .tres .devicon-gulp-plain, .tres .devicon-nodejs-plain-wordmark, .tres .devicon-tomcat-line-wordmark, .tres .devicon-css3-plain-wordmark, .tres .devicon-javascript-plain, .tres .devicon-jquery-plain-wordmark, .tres .devicon-php-plain, .tres .devicon-mysql-plain-wordmark {
   font-size: 100px;
   color: #2D4262;
   padding: 10px; }
