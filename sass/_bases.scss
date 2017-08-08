@@ -99,6 +99,16 @@ body{
 		font-size: 40px;
 		padding-bottom: 10px;
 	}
+	.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-jquery-plain-wordmark, .devicon-php-plain, .devicon-mysql-plain-wordmark{
+		font-size: 100px;
+		color: $azul;
+		padding: 10px;
+	}
+	.devicon-sass-original, .devicon-bootstrap-plain-wordmark, .devicon-photoshop-line, .devicon-trello-plain-wordmark, .devicon-slack-plain-wordmark, .devicon-github-plain-wordmark, .devicon-gulp-plain, .devicon-nodejs-plain-wordmark, .devicon-tomcat-line-wordmark{
+		font-size: 100px;
+		color: $azul;
+		padding: 10px;
+	}
 }
 .espacio{
 	padding: 30px;
@@ -168,14 +178,3 @@ footer{
     -ms-transform: translate(-50%,-50%);
 }
 
-/*Colores Iconos*/
-.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-jquery-plain-wordmark, .devicon-php-plain, .devicon-mysql-plain-wordmark{
-	font-size: 100px;
-	color: $azul;
-	padding: 10px;
-}
-.devicon-sass-original, .devicon-bootstrap-plain-wordmark, .devicon-photoshop-line, .devicon-trello-plain-wordmark, .devicon-slack-plain-wordmark, .devicon-github-plain-wordmark, .devicon-gulp-plain, .devicon-nodejs-plain-wordmark, .devicon-tomcat-line-wordmark{
-	font-size: 100px;
-	color: $azul;
-	padding: 10px;
-}

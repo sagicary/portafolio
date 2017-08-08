@@ -88,6 +88,14 @@ body {
   font-family: 'Lobster';
   font-size: 40px;
   padding-bottom: 10px; }
+.tres .devicon-html5-plain-wordmark, .tres .devicon-css3-plain-wordmark, .tres .devicon-javascript-plain, .tres .devicon-jquery-plain-wordmark, .tres .devicon-php-plain, .tres .devicon-mysql-plain-wordmark {
+  font-size: 100px;
+  color: #2D4262;
+  padding: 10px; }
+.tres .devicon-sass-original, .tres .devicon-bootstrap-plain-wordmark, .tres .devicon-photoshop-line, .tres .devicon-trello-plain-wordmark, .tres .devicon-slack-plain-wordmark, .tres .devicon-github-plain-wordmark, .tres .devicon-gulp-plain, .tres .devicon-nodejs-plain-wordmark, .tres .devicon-tomcat-line-wordmark {
+  font-size: 100px;
+  color: #2D4262;
+  padding: 10px; }
 
 .espacio {
   padding: 30px; }
@@ -146,16 +154,5 @@ footer {
   color: white;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
-
-/*Colores Iconos*/
-.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-jquery-plain-wordmark, .devicon-php-plain, .devicon-mysql-plain-wordmark {
-  font-size: 100px;
-  color: #2D4262;
-  padding: 10px; }
-
-.devicon-sass-original, .devicon-bootstrap-plain-wordmark, .devicon-photoshop-line, .devicon-trello-plain-wordmark, .devicon-slack-plain-wordmark, .devicon-github-plain-wordmark, .devicon-gulp-plain, .devicon-nodejs-plain-wordmark, .devicon-tomcat-line-wordmark {
-  font-size: 100px;
-  color: #2D4262;
-  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
