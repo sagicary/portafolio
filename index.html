@@ -10,6 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<!--FA-->
 	<script src="https://use.fontawesome.com/52df75c062.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!--ESTILOS-->
 	<link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style5.css">
@@ -66,8 +67,7 @@
     </div>
     <div class="col-md-6 col-xs-12 descripcion">
       <h3>Hola! Mi nombre es Claudia</h3>
-      <p>Desde hace años he estado ligada al mundo de la informática, desde distintas áreas, hasta que me dí cuenta que lo que realmente me apasiona es el desarrollo web, porque me permite crear y generar ideas que puedan aportar a los demás. Creo en la innovación y en hacer las cosas de manera diferente; tengo mente emprendedora, creativa y con un montón de ideas en desarrollo.</p>
-      <p>Amo aprender cosas nuevas, soy autodidacta, flexible y me acomoda trabajar por cumplimiento de metas. Mi enfoque es el tema social, creo que el desarrollo web me ayudará a llegar a lo que quiero lograr.</p>
+      <p>Desde hace años he estado ligada al mundo de la informática, desde distintas áreas, hasta que me dí cuenta que de todas ellas lo que más me apasiona es el desarrollo web, porque me permite crear y generar ideas que puedan aportar a los demás. Creo en la innovación y en hacer las cosas de manera diferente; tengo mente emprendedora, creativa y con un montón de ideas en desarrollo.</p>
       <h3 class="center">Reconocimientos en Laboratoria</h3>
       <p class="imgcentro"><img src="assets/img/best_squad.png" alt="Mejor Squad"><img src="assets/img/team-player.png" alt="Best Team Player"><img src="assets/img/top_5.png" alt="Top 5"></p>
     </div>
@@ -80,22 +80,26 @@
       <div class="col-md-12 col-xs-12 center espacio">
         <h3>Conocimientos</h3>
         <p class="imagenes">
-          <img src="assets/img/logos/html.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/css.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/javascript.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/jquery.gif" alt="" class="img-responsive">
-          <img src="assets/img/logos/php.svg" alt="" class="img-responsive">
-          <img src="assets/img/logos/mysql.png" alt="" class="img-responsive">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-php-plain"></i>
+          <i class="devicon-mysql-plain-wordmark"></i>
+          <i class="devicon-photoshop-line"></i>
         </p>
       </div>
       <div class="col-md-12 col-xs-12 center espacio">
         <h3>Herramientas Utilizadas</h3>
         <p class="imagenes">
-          <img src="assets/img/logos/sass.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/bootstrap.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/photoshop.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/trello.png" alt="" class="img-responsive">
-          <img src="assets/img/logos/slack.png" alt="" class="img-responsive">
+          <i class="devicon-sass-original"></i>
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-trello-plain-wordmark"></i>
+          <i class="devicon-slack-plain-wordmark"></i>
+          <i class="devicon-github-plain-wordmark"></i>
+          <i class="devicon-gulp-plain"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-tomcat-line-wordmark"></i>
         </p>
       </div>
     </div>
@@ -106,7 +110,15 @@
     <div class="col-md-12 col-xs-12 center">
       <h3>Portafolio</h3>
       <div class="col-md-3 col-xs-12">
-        <img src="assets/img/proyectos/portafoliosass.png" alt="" class="img-responsive center-block">
+      
+        <img src="assets/img/proyectos/portafoliosass.png" onclick="on()" alt="" class="img-responsive center-block">
+        <div id="overlay" onclick="off()">
+          <div id="text" class="col-md-3 col-xs-12">
+          <h4>Portafolio Sass</h4>
+          <p></p>
+
+          </div>
+        </div>
       </div>
       <div class="col-md-3 col-xs-12">
         <img src="assets/img/proyectos/gameplanet.png" alt="" class="img-responsive center-block">
@@ -137,6 +149,15 @@
     </div>
   </div>
 </footer>
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/modernizr.custom.72111.js"></script>
