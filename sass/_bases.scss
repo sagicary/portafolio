@@ -35,6 +35,7 @@ body{
 	}
 	.descripcion{
 		padding: 30px;
+		padding-right: 100px;
 		h3{
 			color: $oscuro;
 			font-family: 'Lobster';
@@ -154,27 +155,52 @@ footer{
 	}
 }
 
-#overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
+/*Para overlay*/
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-#text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.cont:hover .image {
+  opacity: 0.3;
+}
+
+.cont:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: $azul;
+  color: white;
+  font-size: 12px;
+  padding: 16px 32px;
+  .fa{
+  	font-size: 30px;
+	border-radius: 0px;
+	background-color: transparent;
+	padding: 15px;
+  }
+  a{
+  	color: $blanco;  	
+  }
+  a:hover{
+  	color: $celeste;
+  }
 }
 
