@@ -109,10 +109,44 @@ body {
     font-size: 40px;
     padding: 10px; }
   .cuatro div {
-    padding: 10px; }
+    padding: 10px;
+    /*Para overlay*/ }
     .cuatro div img {
       width: 250px;
       height: 250px; }
+    .cuatro div .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden; }
+    .cuatro div .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); }
+    .cuatro div .cont:hover .image {
+      opacity: 0.3; }
+    .cuatro div .cont:hover .middle {
+      opacity: 1; }
+    .cuatro div .text {
+      background-color: #2D4262;
+      color: white;
+      font-size: 12px;
+      padding: 16px 32px; }
+      .cuatro div .text .fa {
+        font-size: 30px;
+        border-radius: 0px;
+        background-color: transparent;
+        padding: 15px; }
+      .cuatro div .text a {
+        color: white; }
+      .cuatro div .text a:hover {
+        color: #C8CFD9; }
 
 .cinco {
   background-image: url("../assets/img/gato.gif");
@@ -133,44 +167,5 @@ footer {
     footer p .fa-heart {
       color: red;
       background-color: #2D4262; }
-
-/*Para overlay*/
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden; }
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
-
-.cont:hover .image {
-  opacity: 0.3; }
-
-.cont:hover .middle {
-  opacity: 1; }
-
-.text {
-  background-color: #2D4262;
-  color: white;
-  font-size: 12px;
-  padding: 16px 32px; }
-  .text .fa {
-    font-size: 30px;
-    border-radius: 0px;
-    background-color: transparent;
-    padding: 15px; }
-  .text a {
-    color: white; }
-  .text a:hover {
-    color: #C8CFD9; }
 
 /*# sourceMappingURL=main.css.map */
